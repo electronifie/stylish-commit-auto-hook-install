@@ -1,0 +1,32 @@
+{
+  "name": "stylish-commit-auto-hook-install",
+  "version": "0.0.1",
+  "description": "Automatically install git pre-commit hooks for stylish-commit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "postinstall": "./scripts/install",
+    "uninstall": "./scripts/uninstall"
+  },
+  "keywords": [
+    "git",
+    "pre-commit",
+    "styleguide",
+    "stylecheck",
+    "link",
+    "hint",
+    "jslint",
+    "jshint"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "debug": "^2.2.0",
+    "fs-extra": "^0.20.1",
+    "mocha": "^2.2.5",
+    "sync-exec": "^0.5.0"
+  },
+  "dependencies": {
+    "stylish-commit": "stylish-commit"
+  }
+}
