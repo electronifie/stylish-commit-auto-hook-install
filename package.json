@@ -1,6 +1,6 @@
 {
   "name": "stylish-commit-auto-hook-install",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Automatically install git pre-commit hooks for stylish-commit.",
   "main": "index.js",
   "repository": "https://github.com/electronifie/stylish-commit-auto-hook-install",
@@ -28,6 +28,6 @@
     "sync-exec": "^0.5.0"
   },
   "dependencies": {
-    "stylish-commit": "0.0.6"
+    "stylish-commit": "0.0.7"
   }
 }
